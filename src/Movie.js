@@ -8,7 +8,7 @@ function Movie({id, year, title, summary, poster, genres}) {
 		<div class="movive__data">
 			<h3 class="movie__title">{title}</h3>
 			<h5 class="movie__year">{year}</h5>
-			<ul class="genres">
+			<ul class="movie__genres">
 				{genres.map((genre, index) => (
 						<li key={index} class="genres__genre">{genre}</li>
 					))
